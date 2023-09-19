@@ -197,15 +197,29 @@ body {
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.9);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     color: white;
     font-size: 5rem;
 }
 
 .winning-message button {
     font-size: 3rem;
-    background-color: white;
+    background: none;
     cursor: pointer;
+    border-radius: 3px;
+    padding: 2px 6px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 4px;
+    transition: all 0.5s;
+}
+.winning-message.show {
+    display: flex;
+}
+.winning-message button:hover {
+    color:  rgb(34, 179, 34);
+    border: 1px solid rgb(34, 179, 34);
 }

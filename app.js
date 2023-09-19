@@ -40,3 +40,16 @@
 // resetHandler()
 // clickHandler()
 
+const cells = document.querySelectorAll('[data-cell]');
+let circleTurn = false;
+
+cells.forEach( cell => {
+    cell.addEventListener('click', handleEvent, {once:true})
+})
+
+function handleEvent() {
+    // Place Mark
+    // Check For win
+    // Check for Draw 
+    // Switch Turns
+}
