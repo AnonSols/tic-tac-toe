@@ -11,6 +11,10 @@ A simple view of the project.
 
 #HOW TO USE
 
-Start and open your code editior
-if Live server is installed as an extension in your editior run the html file with live server.
+Clone or download the project to your machine.
+Open and Start your code editior.
+If Live server is installed as an extension in your editior run the html file with live server. Else run the application Locally.
+
+Finally!!
+
 Enjoy and play the game ❤️💫
